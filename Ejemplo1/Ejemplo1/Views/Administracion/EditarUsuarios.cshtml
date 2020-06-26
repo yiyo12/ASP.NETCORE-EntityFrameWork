@@ -1,0 +1,105 @@
+﻿@model EditarUsuarioModelo
+
+@{
+    ViewBag.Title = "Editar Usuarios";
+
+}
+
+
+<h1>Editar usuario</h1>
+
+<form method="post" class="mt-3">
+
+    <div class="form-group row">
+        <label asp-for="Id" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="Id" disabled class="form-control" />
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label asp-for="Email" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+    </div>
+    
+    <div class="form-group row">
+        <label asp-for="NombreUsuario" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="NombreUsuario" class="form-control" />
+            <span asp-validation-for="NombreUsuario" class="text-danger"></span>
+        </div>
+    </div>
+    
+    <div class="form-group row">
+        <label asp-for="ayudaPass" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="ayudaPass" class="form-control" />
+        </div>
+    </div>
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="form-group row">
+        <div class="col-sm-10">
+            <button type="submit" class="btn btn-primary" style="width:auto">Actualizar</button>
+            <a asp-action="ListadoUsuarios" class="btn btn-primary" style="width:auto">Cancelar</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <h3>Usuarios Roles</h3>
+        </div>
+        <div class="card-body">
+
+            @if (Model.Roles.Any())
+            {
+                foreach (var rol in Model.Roles)
+                {
+                    <h5 class="card-title">@rol</h5>
+                }
+            }
+            else
+            {
+                <h5 class="card-title">Ninguno por ahora</h5>
+
+            }
+        </div>
+
+        <div class="card-footer">
+            <a asp-controller="Administracion" asp-action="EditarRolUsuario" class="btn btn-primary"
+               asp-route-rolId="@Model.Id" style="width:auto">Gestion Roles</a>
+        </div>
+    </div>
+
+
+    <div class="card">
+        <div class="card-header">
+            <h3>Usuarios Notificaciones</h3>
+        </div>
+        <div class="card-body">
+
+            @if (Model.Roles.Any())
+            {
+                foreach (var claims in Model.Notificaciones)
+                {
+                    <h5 class="card-title">@claims</h5>
+                }
+            }
+            else
+            {
+                <h5 class="card-title">Ninguno por ahora</h5>
+
+            }
+        </div>
+
+        <div class="card-footer">
+            <!---->
+          
+        </div>
+    </div>
+
+</form>

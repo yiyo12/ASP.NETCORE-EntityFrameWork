@@ -1,0 +1,78 @@
+﻿@model IEnumerable<UsuarioAplicacacion>
+
+@{
+    ViewBag.Title = "Listado de usuarios";
+}
+
+
+<h1>Lista de usuarios</h1>
+
+@if (Model.Any())
+{
+    <a class="btn btn-dark mb-3" style="width:auto"
+       asp-action="Registro" asp-controller="Cuentas">
+        Crear nuevo usuario
+    </a>
+
+    foreach (var user in Model)
+    {
+        <div class="card mb-3">
+            <div class="card-header">
+                User ID: @user.Id
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">@user.UserName</h5>
+            </div>
+            <div class="card-footer">
+
+                <form method="post" asp-action="BorrarUsuario" asp-route-id="@user.Id">
+                    <a asp-controller="Administracion" asp-action="EditarUsuarios"
+                       asp-route-id="@user.Id" class="btn btn-success">Editar</a>
+
+
+                    @*<button type="submit" class="btn btn-danger">Borrar</button>*@
+
+                    <span id="confirmBorrarSpan_@user.Id" style="display:none">
+                        <span>Seguro quiere borrar este elemento</span>
+                        <button type="submit" class="btn btn-danger">  Si  </button>
+                        <a class="btn btn-outline-success" 
+                           onclick="confirmarBorrar('@user.Id', false)">no</a>
+                    </span>
+
+                    <span id="BorrarSpan_@user.Id">
+                        <a class="btn btn-outline-success" 
+                           onclick="confirmarBorrar('@user.Id', true)">Borrar</a>
+                    </span>
+
+                </form>
+
+
+            </div>
+
+        </div>
+    }
+
+}
+else
+{
+    <div class="card">
+        <div class="card-header">
+            Todavia no hay usuarios
+        </div>
+
+        <div class="card-body">
+
+            <h5 class="card-title">Usa este boton para crear un nuevo usuario</h5>
+            <a class="btn btn-success" style="width:auto"
+               asp-controller="Cuentas" asp-action="Registro">Crear usuario</a>
+        </div>
+
+
+    </div>
+}
+
+
+@section Scripts {
+
+<script src="~/Js/Miscript.js"></script>
+}

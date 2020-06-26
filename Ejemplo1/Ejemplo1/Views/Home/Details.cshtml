@@ -1,0 +1,52 @@
+﻿
+
+@model DetallesView
+@{
+    //Cuando se tiene eun _ViewStart no es necesario especificar en cada vista la ruta
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Amigos Detalles";
+    ///AL tener ?? indica que si no ponemos una foto osea ser == null pondra por defcto noImg.png 
+
+    var rutaImagen = "~/images/" + (Model.amigo.rutaFoto ?? "NoIMG.png");
+
+
+}
+
+
+    <div class="row justify-content-center m-3">
+        <div class="col-sm-8">
+            
+            <div class="card">
+                
+                <div class="card-header">
+                    <h1>@Model.amigo.Nombre</h1>
+                </div>
+                <div class="card-body text-center">
+
+                    <img src="@rutaImagen" class="card-img-top imagen" asp-append-version="true" />
+
+                    <h4>Amigo ID: @Model.amigo.Id</h4>
+                    <h4>Amigo Email: @Model.amigo.Email</h4>
+                    <h4>Amigo Ciudad: @Model.amigo.Ciudad</h4>
+
+                </div>
+                <div class="card-footer  text-center">
+                    <a href="#" class="btn btn-primary">Ver</a>
+                    <a href="#" class="btn btn-primary">Editar</a>
+                    <a href="#" class="btn btn-danger">Borrar</a>
+
+                </div>
+            </div>
+        </div>        
+
+    </div>
+
+
+
+
+
+
+@section Scripts
+{
+    <script src="~/Js/Miscript.js"></script>
+}

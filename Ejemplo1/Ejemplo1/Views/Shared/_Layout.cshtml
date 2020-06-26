@@ -1,0 +1,121 @@
+﻿@using Microsoft.AspNetCore.Identity
+<!--Inyecta para validiar si el usuaroi ah iniciado sesion si existe y esta en la base de datos-->
+@inject SignInManager<UsuarioAplicacacion> signInManager
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <script src="~/jquery/jquery.js"></script>
+    <link href="~/css/Styles.css" rel="stylesheet" />
+    <script src="~/lib/twitter-bootstrap/js/bootstrap.js"></script>
+
+    <script src="~/jquery/jquery.js"></script>
+    <script src="~/lib/jquery-validate/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    
+    
+    <environment include="Development">
+        <link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+        <link href="~/lib/twitter-bootstrap/css/bootstrap-grid.css" rel="stylesheet" />
+    </environment>
+
+    <environment exclude="Development">
+
+        <!--Se puede poner el cdn de boostrap de internet y un integrite con un hash
+        Esto sirve para si el enviorement(Archivo de configuracion) es development cargalo de esta direccion si no lo es cargalo de esta otra direccion-->
+        <!--en caso de que falle con los demas elementos se le dice de donde puede cargar esa liberia-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+              integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+              crossorigin="anonymous"
+              href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/twitter-bootstrap/css/bootstrap.css"
+              asp-fallback-test-class="sr-only"
+              asp-fallback-test-property="position"
+              asp-fallback-test-value="absolute"
+              asp-suppress-fallback-integrity="true">
+
+    </environment>
+
+
+</head>
+<body>
+
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <a class="navbar-brand" asp-controller="home" asp-action="index">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="home" asp-action="index">Listado</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="home" asp-action="create">Crear</a>
+                    </li>
+                    @if (signInManager.IsSignedIn(User) && User.IsInRole("Administracion"))
+                    {
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gestion</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background: darkgray;">
+                                <a class="nav-link" asp-controller="Administracion" asp-action="ListarRoles">Listado Roles</a>
+                                <a class="nav-link" asp-controller="Administracion" asp-action="ListadoUsuarios">Listado Usuarios</a>
+                            </div>                 
+                        </li>
+                    }
+                </ul>
+                <ul class="navbar-nav ml-auto">
+
+                    @if (signInManager.IsSignedIn(User))
+                    {
+                        <li class="nav-item">
+                            <form method="post" asp-controller="Cuentas" asp-action="CerrarSesion">
+                                <button type="submit" style="width:auto" class="nav-link btn btn-primary py-0">
+                                    Logout @User.Identity.Name
+                                </button>
+
+                            </form>
+                        </li>
+                    }
+                    else
+                    {
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Cuentas" asp-action="Registro">Registrar</a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Cuentas" asp-action="Login">Login</a>
+                        </li>
+                    }
+
+
+
+                </ul>
+
+
+            </div>
+        </nav>
+
+
+
+
+
+        <div>
+            @RenderBody()
+        </div>
+    </div>
+
+    @RenderSection("Scripts", required: false)
+
+
+
+</body>
+</html>

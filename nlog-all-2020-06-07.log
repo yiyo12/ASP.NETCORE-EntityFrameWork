@@ -1,0 +1,1177 @@
+2020-06-07 12:54:01.4172|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\yiyos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-07 12:54:03.2681|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 12:54:04.3829|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 12:54:06.1151|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 12:54:06.8315|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2020-06-07 12:54:07.5622|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 12:54:07.6681|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1542.0769ms.
+2020-06-07 12:54:07.7814|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 12:54:08.4309|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 740.9399ms.
+2020-06-07 12:54:08.4309|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 4047.736ms
+2020-06-07 12:54:08.4596|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5193.008ms 200 text/html; charset=utf-8
+2020-06-07 12:54:08.5302|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/css/Styles.css  
+2020-06-07 12:54:08.5302|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/lib/twitter-bootstrap/js/bootstrap.js  
+2020-06-07 12:54:08.5302|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/jquery/jquery.js  
+2020-06-07 12:54:08.5608|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /css/Styles.css was not modified
+2020-06-07 12:54:08.5608|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/twitter-bootstrap/js/bootstrap.js was not modified
+2020-06-07 12:54:08.5608|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /jquery/jquery.js was not modified
+2020-06-07 12:54:08.5885|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 54.4746ms 304 application/javascript
+2020-06-07 12:54:08.5885|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 56.6858ms 304 application/javascript
+2020-06-07 12:54:08.6009|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 72.4445ms 304 text/css
+2020-06-07 12:54:08.6009|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/lib/twitter-bootstrap/css/bootstrap.css  
+2020-06-07 12:54:08.6182|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/twitter-bootstrap/css/bootstrap.css was not modified
+2020-06-07 12:54:08.6182|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/lib/twitter-bootstrap/css/bootstrap-grid.css  
+2020-06-07 12:54:08.6182|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 17.4102ms 304 text/css
+2020-06-07 12:54:08.6348|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/twitter-bootstrap/css/bootstrap-grid.css was not modified
+2020-06-07 12:54:08.6348|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 17.9145ms 304 text/css
+2020-06-07 12:54:08.6538|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/images/93ffa695-63d0-4200-849d-e274dce33a54_95074273_1145615665799081_7339390190408539118_n.jpg?v=TEUazD6x_4uRMsF7TDO6vUB2nhtXRDEX68tlhySFuAs  
+2020-06-07 12:54:08.6538|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /images/93ffa695-63d0-4200-849d-e274dce33a54_95074273_1145615665799081_7339390190408539118_n.jpg was not modified
+2020-06-07 12:54:08.6710|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 13.0649ms 304 image/jpeg
+2020-06-07 12:54:08.6710|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/images/NoIMG.png?v=UIxflHNeZZW3ANO_qrMS4GQCKHoPwV1DYY8NNrF0Q88  
+2020-06-07 12:54:08.6800|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /images/NoIMG.png was not modified
+2020-06-07 12:54:08.6800|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.0877ms 304 image/png
+2020-06-07 12:54:08.7377|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/images/8bc1be3f-05a1-4fb0-b7b7-ccc2dfc099bb97329753_3529102337105733_8399514657131331584_n.jpg?v=BSqCvaZiTnPdFXJkcdcRGVHaUvlTiFWItuyEsxSLoTo  
+2020-06-07 12:54:08.7441|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /images/8bc1be3f-05a1-4fb0-b7b7-ccc2dfc099bb97329753_3529102337105733_8399514657131331584_n.jpg was not modified
+2020-06-07 12:54:08.7441|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.3003ms 304 image/jpeg
+2020-06-07 12:54:08.7674|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/images/635be1f2-022e-40b8-872d-6b6e06416f04100932261_183268066333244_9046457483108444026_n.jpg?v=-qYXosKB9kfonkhXuAAhMEZbFHMszS1IRYkq3YRUL1M  
+2020-06-07 12:54:08.7962|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/images/4f375b44-9615-4430-9d0c-996dc566176a97970716_929387327512446_8495174234627112960_n.jpg?v=kIBoq1GQ0SxXV3OoEp8u-WJwxyotc7qXb-ZavDiOgcQ  
+2020-06-07 12:54:08.7962|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /images/635be1f2-022e-40b8-872d-6b6e06416f04100932261_183268066333244_9046457483108444026_n.jpg was not modified
+2020-06-07 12:54:08.8094|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /images/4f375b44-9615-4430-9d0c-996dc566176a97970716_929387327512446_8495174234627112960_n.jpg was not modified
+2020-06-07 12:54:08.8359|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 54.915ms 304 image/jpeg
+2020-06-07 12:54:08.8359|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 67.0345ms 304 image/jpeg
+2020-06-07 12:54:08.8534|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/images/5e97d154-5801-4686-9296-b67df264e630_100932261_183268066333244_9046457483108444026_n.jpg?v=-qYXosKB9kfonkhXuAAhMEZbFHMszS1IRYkq3YRUL1M  
+2020-06-07 12:54:08.8534|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /images/5e97d154-5801-4686-9296-b67df264e630_100932261_183268066333244_9046457483108444026_n.jpg was not modified
+2020-06-07 12:54:08.8726|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 18.9576ms 304 image/jpeg
+2020-06-07 12:54:08.9770|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/favicon.ico  
+2020-06-07 12:54:09.0348|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 57.5133ms 404 
+2020-06-07 12:54:12.0132|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Cuentas/Registro  
+2020-06-07 12:54:12.0413|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Registro() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 12:54:12.0704|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Valid
+2020-06-07 12:54:12.0704|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.8006ms.
+2020-06-07 12:54:12.1225|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Registro.
+2020-06-07 12:54:12.2722|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Registro executed in 188.4356ms.
+2020-06-07 12:54:12.2853|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 239.3184ms
+2020-06-07 12:54:12.2997|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 281.4511ms 200 text/html; charset=utf-8
+2020-06-07 12:54:14.8160|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/Registro application/x-www-form-urlencoded 216
+2020-06-07 12:54:14.8618|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registro(Ejemplo1.ViewModels.RegistroModelo) on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 12:54:14.9928|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Invalid
+2020-06-07 12:54:14.9928|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 5.3304ms.
+2020-06-07 12:54:15.0093|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Registro.
+2020-06-07 12:54:15.0274|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Registro executed in 15.968ms.
+2020-06-07 12:54:15.0274|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 168.4667ms
+2020-06-07 12:54:15.0425|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 224.8102ms 200 text/html; charset=utf-8
+2020-06-07 12:55:46.9776|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/Registro application/x-www-form-urlencoded 241
+2020-06-07 12:55:46.9996|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registro(Ejemplo1.ViewModels.RegistroModelo) on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 12:55:47.0078|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Valid
+2020-06-07 12:55:47.0447|WARN|Microsoft.AspNetCore.Identity.UserManager|User 16bd2645-2bac-4a99-b79f-41de296a9260 password validation failed: PasswordTooShort;PasswordRequiresLower;PasswordRequiresUpper.
+2020-06-07 12:55:47.0447|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 32.6023ms.
+2020-06-07 12:55:47.0559|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Registro.
+2020-06-07 12:55:47.0699|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Registro executed in 14.3667ms.
+2020-06-07 12:55:47.0699|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 73.6021ms
+2020-06-07 12:55:47.0886|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 109.4108ms 200 text/html; charset=utf-8
+2020-06-07 12:56:50.9493|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/Registro application/x-www-form-urlencoded 241
+2020-06-07 12:56:50.9493|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registro(Ejemplo1.ViewModels.RegistroModelo) on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 12:56:50.9618|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Valid
+2020-06-07 12:56:50.9618|WARN|Microsoft.AspNetCore.Identity.UserManager|User 57e695e9-aafb-4c67-aa32-988c9ec871d4 password validation failed: PasswordTooShort;PasswordRequiresLower;PasswordRequiresUpper.
+2020-06-07 12:56:50.9618|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 4.5767ms.
+2020-06-07 12:56:50.9788|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Registro.
+2020-06-07 12:56:50.9918|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Registro executed in 13.1912ms.
+2020-06-07 12:56:50.9918|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 42.0585ms
+2020-06-07 12:56:51.0092|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 71.7752ms 200 text/html; charset=utf-8
+2020-06-07 12:56:54.0895|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/Registro application/x-www-form-urlencoded 241
+2020-06-07 12:56:54.0895|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registro(Ejemplo1.ViewModels.RegistroModelo) on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 12:56:54.0895|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Valid
+2020-06-07 12:56:54.1063|WARN|Microsoft.AspNetCore.Identity.UserManager|User 58fc8de9-2858-4b68-9798-3c038ebce26a password validation failed: PasswordTooShort;PasswordRequiresLower;PasswordRequiresUpper.
+2020-06-07 12:56:54.1063|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 8.8257ms.
+2020-06-07 12:56:54.1172|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Registro.
+2020-06-07 12:56:54.1172|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Registro executed in 5.8924ms.
+2020-06-07 12:56:54.1341|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 30.8716ms
+2020-06-07 12:56:54.1341|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 52.0819ms 200 text/html; charset=utf-8
+2020-06-07 12:56:58.0251|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/Registro application/x-www-form-urlencoded 241
+2020-06-07 12:56:58.0251|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registro(Ejemplo1.ViewModels.RegistroModelo) on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 12:56:58.0251|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Valid
+2020-06-07 12:56:58.0378|WARN|Microsoft.AspNetCore.Identity.UserManager|User 947d5d12-90a5-4be1-b094-8a34a36edd61 password validation failed: PasswordTooShort;PasswordRequiresLower;PasswordRequiresUpper.
+2020-06-07 12:56:58.0378|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 7.16ms.
+2020-06-07 12:56:58.0378|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Registro.
+2020-06-07 12:56:58.0616|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Registro executed in 5.9702ms.
+2020-06-07 12:56:58.0749|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 37.7506ms
+2020-06-07 12:56:58.0749|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 55.5925ms 200 text/html; charset=utf-8
+2020-06-07 12:57:00.0807|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/Registro application/x-www-form-urlencoded 241
+2020-06-07 12:57:00.0854|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registro(Ejemplo1.ViewModels.RegistroModelo) on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 12:57:00.0854|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Valid
+2020-06-07 12:57:00.0854|WARN|Microsoft.AspNetCore.Identity.UserManager|User cd4e4166-5543-4614-a6d5-ad45d1641c7d password validation failed: PasswordTooShort;PasswordRequiresLower;PasswordRequiresUpper.
+2020-06-07 12:57:00.1064|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 11.8241ms.
+2020-06-07 12:57:00.1064|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Registro.
+2020-06-07 12:57:00.1173|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Registro executed in 6.1324ms.
+2020-06-07 12:57:00.1173|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 37.0996ms
+2020-06-07 12:57:00.1377|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 53.6545ms 200 text/html; charset=utf-8
+2020-06-07 12:57:01.9193|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/home/create  
+2020-06-07 12:57:01.9306|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Create", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Create() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 12:57:01.9306|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Create (Ejemplo1) - Validation state: Valid
+2020-06-07 12:57:01.9306|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Create (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4123ms.
+2020-06-07 12:57:01.9851|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Create.
+2020-06-07 12:57:02.0974|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Create executed in 150.0157ms.
+2020-06-07 12:57:02.1165|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Create (Ejemplo1) in 178.5384ms
+2020-06-07 12:57:02.1165|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 206.4135ms 200 text/html; charset=utf-8
+2020-06-07 12:57:02.7151|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Cuentas/Registro  
+2020-06-07 12:57:02.7151|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Registro() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 12:57:02.7321|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Valid
+2020-06-07 12:57:02.7321|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0401ms.
+2020-06-07 12:57:02.7410|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Registro.
+2020-06-07 12:57:02.7410|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Registro executed in 5.3793ms.
+2020-06-07 12:57:02.7672|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 34.7971ms
+2020-06-07 12:57:02.7851|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 62.6574ms 200 text/html; charset=utf-8
+2020-06-07 12:57:07.8745|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/Registro application/x-www-form-urlencoded 224
+2020-06-07 12:57:07.8745|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registro(Ejemplo1.ViewModels.RegistroModelo) on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 12:57:07.8862|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Invalid
+2020-06-07 12:57:07.8862|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0884ms.
+2020-06-07 12:57:07.8995|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Registro.
+2020-06-07 12:57:07.9280|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Registro executed in 7.4926ms.
+2020-06-07 12:57:07.9280|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 50.3219ms
+2020-06-07 12:57:07.9280|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 67.0761ms 200 text/html; charset=utf-8
+2020-06-07 12:57:16.2428|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/Registro application/x-www-form-urlencoded 241
+2020-06-07 12:57:16.2428|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registro(Ejemplo1.ViewModels.RegistroModelo) on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 12:57:16.2697|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Valid
+2020-06-07 12:57:16.2764|WARN|Microsoft.AspNetCore.Identity.UserManager|User dd5a289c-ed2b-4298-ba15-0a22cdde2523 password validation failed: PasswordTooShort;PasswordRequiresLower;PasswordRequiresUpper.
+2020-06-07 12:57:16.2764|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 6.4719ms.
+2020-06-07 12:57:16.2890|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Registro.
+2020-06-07 12:57:16.2890|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Registro executed in 9.251ms.
+2020-06-07 12:57:16.3084|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 45.1338ms
+2020-06-07 12:57:16.3253|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 92.6786ms 200 text/html; charset=utf-8
+2020-06-07 12:57:40.4031|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\yiyos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-07 12:57:41.2090|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 12:57:41.6097|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 12:57:41.9157|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 12:57:42.4277|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2020-06-07 12:57:42.8665|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 12:57:42.9786|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1052.0509ms.
+2020-06-07 12:57:43.0308|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 12:57:43.5453|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 541.0183ms.
+2020-06-07 12:57:43.6722|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 1956.3468ms
+2020-06-07 12:57:43.7192|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2502.6123ms 200 text/html; charset=utf-8
+2020-06-07 12:57:44.0227|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/favicon.ico  
+2020-06-07 12:57:44.0902|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 68.009ms 404 
+2020-06-07 12:58:06.6680|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Cuentas/Registro  
+2020-06-07 12:58:06.6911|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Registro() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 12:58:06.7156|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Valid
+2020-06-07 12:58:06.7156|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5324ms.
+2020-06-07 12:58:06.7319|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Registro.
+2020-06-07 12:58:06.8600|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Registro executed in 135.0605ms.
+2020-06-07 12:58:06.8740|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 177.7671ms
+2020-06-07 12:58:06.8926|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 212.9815ms 200 text/html; charset=utf-8
+2020-06-07 12:58:12.5550|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/Registro application/x-www-form-urlencoded 239
+2020-06-07 12:58:12.6172|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registro(Ejemplo1.ViewModels.RegistroModelo) on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 12:58:12.6990|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Valid
+2020-06-07 12:58:12.7327|WARN|Microsoft.AspNetCore.Identity.UserManager|User d3b25884-53e4-4f4f-b981-5f603eda7a20 password validation failed: PasswordTooShort;PasswordRequiresLower;PasswordRequiresUpper.
+2020-06-07 12:58:12.7327|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 32.1266ms.
+2020-06-07 12:58:12.7418|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Registro.
+2020-06-07 12:58:12.7576|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Registro executed in 13.6853ms.
+2020-06-07 12:58:12.7895|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 164.3252ms
+2020-06-07 12:58:12.8067|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 244.0237ms 200 text/html; charset=utf-8
+2020-06-07 13:29:12.5675|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\yiyos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-07 13:29:13.4808|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 13:29:13.9519|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 13:29:14.4664|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 13:29:14.9471|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2020-06-07 13:29:15.5202|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 13:29:15.6181|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1139.2179ms.
+2020-06-07 13:29:15.7079|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 13:29:16.2779|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 634.9917ms.
+2020-06-07 13:29:16.2779|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 2326.8683ms
+2020-06-07 13:29:16.3008|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2831.5389ms 200 text/html; charset=utf-8
+2020-06-07 13:29:16.6417|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/favicon.ico  
+2020-06-07 13:29:16.6940|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 55.1199ms 404 
+2020-06-07 13:29:21.3156|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Cuentas/Login  
+2020-06-07 13:29:21.3313|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Cuentas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 13:29:21.3441|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) - Validation state: Valid
+2020-06-07 13:29:21.3505|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6177ms.
+2020-06-07 13:29:21.3505|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login.
+2020-06-07 13:29:21.3691|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'Login' was not found. Searched locations: /Views/Cuentas/Login.cshtml, /Views/Shared/Login.cshtml, /Pages/Shared/Login.cshtml
+2020-06-07 13:29:21.3861|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) in 48.0935ms
+2020-06-07 13:29:22.9447|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2020-06-07 13:29:23.5341|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2217.4975ms 500 text/html; charset=utf-8
+2020-06-07 13:29:27.1909|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Cuentas/Registro  
+2020-06-07 13:29:27.1987|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Registro() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 13:29:27.1987|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Valid
+2020-06-07 13:29:27.1987|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4073ms.
+2020-06-07 13:29:27.2211|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Registro.
+2020-06-07 13:29:27.3221|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Registro executed in 102.1469ms.
+2020-06-07 13:29:27.3221|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 125.6393ms
+2020-06-07 13:29:27.3352|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 150.3462ms 200 text/html; charset=utf-8
+2020-06-07 13:29:47.4553|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/Registro application/x-www-form-urlencoded 245
+2020-06-07 13:29:47.5093|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registro(Ejemplo1.ViewModels.RegistroModelo) on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 13:29:47.5867|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Valid
+2020-06-07 13:29:47.6216|WARN|Microsoft.AspNetCore.Identity.UserManager|User 53854a52-bb1e-412c-8a1c-2c9fdb40921d password validation failed: PasswordTooShort.
+2020-06-07 13:29:47.6216|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 34.7288ms.
+2020-06-07 13:29:47.6216|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Registro.
+2020-06-07 13:29:47.6464|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Registro executed in 15.8264ms.
+2020-06-07 13:29:47.6544|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 138.3423ms
+2020-06-07 13:29:47.6544|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 209.8247ms 200 text/html; charset=utf-8
+2020-06-07 13:30:17.4835|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/Registro application/x-www-form-urlencoded 247
+2020-06-07 13:30:17.4835|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registro(Ejemplo1.ViewModels.RegistroModelo) on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 13:30:17.5010|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Valid
+2020-06-07 13:30:17.8001|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (54ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2020-06-07 13:30:18.0814|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (13ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 256), @p8='?' (Size = 256), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+2020-06-07 13:30:18.2168|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (5ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-07 13:30:18.3111|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+2020-06-07 13:30:18.3423|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed in.
+2020-06-07 13:30:18.3517|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 846.2671ms.
+2020-06-07 13:30:18.3662|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-06-07 13:30:18.3662|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 875.8797ms
+2020-06-07 13:30:18.3883|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 904.7884ms 302 
+2020-06-07 13:30:18.3883|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 13:30:18.4017|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 13:30:18.4017|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 13:30:18.4132|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 13:30:18.4132|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 5.0978ms.
+2020-06-07 13:30:18.4132|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 13:30:18.4336|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 9.3372ms.
+2020-06-07 13:30:18.4336|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 32.0591ms
+2020-06-07 13:30:18.4506|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 53.9561ms 200 text/html; charset=utf-8
+2020-06-07 13:33:56.4614|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\yiyos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-07 13:33:57.4656|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 13:33:57.8736|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 13:33:58.2851|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 13:33:58.7489|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2020-06-07 13:33:59.1343|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 13:33:59.2221|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 928.4462ms.
+2020-06-07 13:33:59.2684|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 13:33:59.7362|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 494.5199ms.
+2020-06-07 13:33:59.7422|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 1863.4791ms
+2020-06-07 13:33:59.7890|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2305.763ms 200 text/html; charset=utf-8
+2020-06-07 13:34:00.0958|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/favicon.ico  
+2020-06-07 13:34:00.1410|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 46.0301ms 404 
+2020-06-07 13:34:05.1141|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/home/edit/2  
+2020-06-07 13:34:05.1484|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Edit", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Edit(Int32) on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 13:34:05.1912|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Edit (Ejemplo1) - Validation state: Valid
+2020-06-07 13:34:05.2645|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Ciudad], [e].[Email], [e].[Nombre], [e].[rutaFoto]
+FROM [AppDbContextAmigos] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-06-07 13:34:05.2824|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Edit (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 84.0065ms.
+2020-06-07 13:34:05.3405|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Edit.
+2020-06-07 13:34:05.5665|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Edit executed in 274.4326ms.
+2020-06-07 13:34:05.5844|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Edit (Ejemplo1) in 427.4226ms
+2020-06-07 13:34:05.6000|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 486.1251ms 200 text/html; charset=utf-8
+2020-06-07 13:34:11.7966|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Home/edit/2 multipart/form-data; boundary=----WebKitFormBoundaryW70QjQw0mNfxNEh0 5504
+2020-06-07 13:34:11.8114|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Edit", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Edit(Ejemplo1.ViewModels.EditAmigosModel) on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 13:34:11.8949|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Edit (Ejemplo1) - Validation state: Valid
+2020-06-07 13:34:11.9034|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Ciudad], [e].[Email], [e].[Nombre], [e].[rutaFoto]
+FROM [AppDbContextAmigos] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-06-07 13:34:12.0216|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 100), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AppDbContextAmigos] SET [Ciudad] = @p0, [Email] = @p1, [Nombre] = @p2, [rutaFoto] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;
+2020-06-07 13:34:12.0415|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Edit (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 142.8227ms.
+2020-06-07 13:34:12.0415|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-06-07 13:34:12.0415|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Edit (Ejemplo1) in 233.4211ms
+2020-06-07 13:34:12.0629|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 262.0618ms 302 
+2020-06-07 13:34:12.0629|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 13:34:12.0712|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 13:34:12.0712|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 13:34:12.0712|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 13:34:12.0883|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 8.5926ms.
+2020-06-07 13:34:12.0883|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 13:34:12.0883|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 7.3432ms.
+2020-06-07 13:34:12.1133|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 33.9364ms
+2020-06-07 13:34:12.1246|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 54.892ms 200 text/html; charset=utf-8
+2020-06-07 13:34:12.1751|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/images/7cd311ae-924b-40b5-9742-a60713f6e419_img.jpg?v=xPOhp9HBgL9gXl46ZPkz1ntyD7KxOBQaTO9u6YMXjGk  
+2020-06-07 13:34:12.2485|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/images/7cd311ae-924b-40b5-9742-a60713f6e419_img.jpg'. Physical path: 'C:\Users\yiyos\Desktop\CursoC#\CursoNetCoreYou\Ejemplo1\Ejemplo1\wwwroot\images\7cd311ae-924b-40b5-9742-a60713f6e419_img.jpg'
+2020-06-07 13:34:12.2590|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 87.8361ms 200 image/jpeg
+2020-06-07 13:34:15.6849|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Cuentas/Registro  
+2020-06-07 13:34:15.6949|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Registro() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 13:34:15.6949|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Valid
+2020-06-07 13:34:15.6949|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4575ms.
+2020-06-07 13:34:15.7219|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Registro.
+2020-06-07 13:34:15.7793|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Registro executed in 69.7594ms.
+2020-06-07 13:34:15.7793|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 84.3546ms
+2020-06-07 13:34:15.7919|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 109.2762ms 200 text/html; charset=utf-8
+2020-06-07 13:34:29.0170|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/Registro application/x-www-form-urlencoded 249
+2020-06-07 13:34:29.0413|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registro(Ejemplo1.ViewModels.RegistroModelo) on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 13:34:29.0685|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Valid
+2020-06-07 13:34:29.2118|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (21ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2020-06-07 13:34:29.3405|WARN|Microsoft.AspNetCore.Identity.UserManager|User f3c11db4-c05a-4d58-ac58-1377740b63db validation failed: DuplicateUserName.
+2020-06-07 13:34:29.3593|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 283.4748ms.
+2020-06-07 13:34:29.3766|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Registro.
+2020-06-07 13:34:29.3860|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Registro executed in 7.207ms.
+2020-06-07 13:34:29.4079|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 350.0565ms
+2020-06-07 13:34:29.4163|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 398.8698ms 200 text/html; charset=utf-8
+2020-06-07 13:34:49.6160|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/Registro application/x-www-form-urlencoded 250
+2020-06-07 13:34:49.6160|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registro(Ejemplo1.ViewModels.RegistroModelo) on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 13:34:49.6160|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Valid
+2020-06-07 13:34:49.6805|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (20ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2020-06-07 13:34:49.7539|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 256), @p8='?' (Size = 256), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+2020-06-07 13:34:49.8436|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-07 13:34:49.9722|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+2020-06-07 13:34:50.0087|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed in.
+2020-06-07 13:34:50.0087|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 379.6644ms.
+2020-06-07 13:34:50.0087|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-06-07 13:34:50.0237|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 394.301ms
+2020-06-07 13:34:50.0237|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 414.7571ms 302 
+2020-06-07 13:34:50.0386|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 13:34:50.0386|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 13:34:50.0386|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 13:34:50.0616|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 13:34:50.0616|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 8.1764ms.
+2020-06-07 13:34:50.0794|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 13:34:50.0878|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 13.6286ms.
+2020-06-07 13:34:50.1162|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 66.3779ms
+2020-06-07 13:34:50.1162|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 82.7379ms 200 text/html; charset=utf-8
+2020-06-07 13:34:50.1505|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/images/7cd311ae-924b-40b5-9742-a60713f6e419_img.jpg?v=xPOhp9HBgL9gXl46ZPkz1ntyD7KxOBQaTO9u6YMXjGk  
+2020-06-07 13:34:50.1505|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /images/7cd311ae-924b-40b5-9742-a60713f6e419_img.jpg was not modified
+2020-06-07 13:34:50.1755|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 21.6201ms 304 image/jpeg
+2020-06-07 13:34:54.3418|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/lib/twitter-bootstrap/js/bootstrap.js.map  
+2020-06-07 13:34:54.3418|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/twitter-bootstrap/js/bootstrap.js.map was not modified
+2020-06-07 13:34:54.3546|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.7749ms 304 text/plain
+2020-06-07 13:34:54.3737|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/lib/twitter-bootstrap/css/bootstrap.css.map  
+2020-06-07 13:34:54.3737|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/lib/twitter-bootstrap/css/bootstrap-grid.css.map  
+2020-06-07 13:34:54.3737|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/twitter-bootstrap/css/bootstrap.css.map was not modified
+2020-06-07 13:34:54.3898|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/twitter-bootstrap/css/bootstrap-grid.css.map was not modified
+2020-06-07 13:34:54.3968|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 20.7911ms 304 text/plain
+2020-06-07 13:34:54.3968|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 22.741ms 304 text/plain
+2020-06-07 13:41:30.0426|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\yiyos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-07 13:41:31.0120|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 13:41:31.4983|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 13:41:32.2121|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 13:41:32.8765|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2020-06-07 13:41:33.3477|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 13:41:33.4652|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1238.5798ms.
+2020-06-07 13:41:33.5470|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 13:41:34.2949|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 760.0093ms.
+2020-06-07 13:41:34.3282|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 2797.2064ms
+2020-06-07 13:41:34.4029|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3371.3248ms 200 text/html; charset=utf-8
+2020-06-07 13:41:34.4029|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/images/7cd311ae-924b-40b5-9742-a60713f6e419_img.jpg?v=xPOhp9HBgL9gXl46ZPkz1ntyD7KxOBQaTO9u6YMXjGk  
+2020-06-07 13:41:34.4394|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /images/7cd311ae-924b-40b5-9742-a60713f6e419_img.jpg was not modified
+2020-06-07 13:41:34.4781|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 67.4259ms 304 image/jpeg
+2020-06-07 13:41:34.6491|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/favicon.ico  
+2020-06-07 13:41:34.7042|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 54.3875ms 404 
+2020-06-07 13:41:36.4705|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Cuentas/Registro  
+2020-06-07 13:41:36.4875|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Registro() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 13:41:36.4946|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Valid
+2020-06-07 13:41:36.4946|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4901ms.
+2020-06-07 13:41:36.5093|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Registro.
+2020-06-07 13:41:36.6398|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Registro executed in 131.2194ms.
+2020-06-07 13:41:36.7115|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 162.6001ms
+2020-06-07 13:41:36.7453|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 261.2819ms 200 text/html; charset=utf-8
+2020-06-07 13:41:53.4710|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/Registro application/x-www-form-urlencoded 251
+2020-06-07 13:41:53.5253|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registro(Ejemplo1.ViewModels.RegistroModelo) on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 13:41:53.6051|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Valid
+2020-06-07 13:41:54.0048|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (125ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2020-06-07 13:41:54.3964|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (32ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 256), @p8='?' (Size = 256), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+2020-06-07 13:41:54.5684|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (5ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-07 13:41:54.6875|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (28ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+2020-06-07 13:41:54.7410|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed in.
+2020-06-07 13:41:54.7667|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 1148.1071ms.
+2020-06-07 13:41:54.7888|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-06-07 13:41:54.7888|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 1268.4062ms
+2020-06-07 13:41:54.8157|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1363.0034ms 302 
+2020-06-07 13:41:54.8209|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 13:41:54.8209|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 13:41:54.8209|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 13:41:54.8398|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 13:41:54.8398|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 9.1404ms.
+2020-06-07 13:41:54.8512|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 13:41:54.8726|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 9.334ms.
+2020-06-07 13:41:54.9214|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 49.3496ms
+2020-06-07 13:41:55.0685|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 146.4601ms 200 text/html; charset=utf-8
+2020-06-07 13:41:57.4010|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 13:41:57.4010|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 13:41:57.4234|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 13:41:57.4320|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 13:41:57.4320|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 8.9702ms.
+2020-06-07 13:41:57.4489|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 13:41:57.4489|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 13.2844ms.
+2020-06-07 13:41:57.4788|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 47.0065ms
+2020-06-07 13:41:57.4788|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 91.0413ms 200 text/html; charset=utf-8
+2020-06-07 13:41:58.5147|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 13:41:58.5291|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 13:41:58.5395|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 13:41:58.5395|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 13:41:58.5633|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 12.9589ms.
+2020-06-07 13:41:58.5761|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 13:41:58.6400|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 16.5521ms.
+2020-06-07 13:41:58.6515|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 112.2567ms
+2020-06-07 13:41:58.6515|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 146.3051ms 200 text/html; charset=utf-8
+2020-06-07 13:41:59.0268|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/home/create  
+2020-06-07 13:41:59.0481|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Create", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Create() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 13:41:59.0586|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Create (Ejemplo1) - Validation state: Valid
+2020-06-07 13:41:59.0825|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Create (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4027ms.
+2020-06-07 13:41:59.1357|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Create.
+2020-06-07 13:41:59.2559|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Create executed in 155.508ms.
+2020-06-07 13:41:59.2671|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Create (Ejemplo1) in 211.501ms
+2020-06-07 13:41:59.2768|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 249.6396ms 200 text/html; charset=utf-8
+2020-06-07 13:42:00.1236|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 13:42:00.1236|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 13:42:00.1350|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 13:42:00.1475|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 13:42:00.1691|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 15.0817ms.
+2020-06-07 13:42:00.1989|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 13:42:00.2101|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 34.1725ms.
+2020-06-07 13:42:00.2295|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 81.0305ms
+2020-06-07 13:42:00.2405|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 115.197ms 200 text/html; charset=utf-8
+2020-06-07 13:42:00.8973|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 13:42:00.9053|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 13:42:00.9053|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 13:42:00.9210|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 13:42:00.9210|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 10.6966ms.
+2020-06-07 13:42:00.9349|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 13:42:00.9468|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 8.9648ms.
+2020-06-07 13:42:00.9616|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 47.1951ms
+2020-06-07 13:42:01.0370|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 72.542ms 200 text/html; charset=utf-8
+2020-06-07 13:42:01.5682|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/home/create  
+2020-06-07 13:42:01.5792|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Create", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Create() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 13:42:01.5922|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Create (Ejemplo1) - Validation state: Valid
+2020-06-07 13:42:01.6027|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Create (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0402ms.
+2020-06-07 13:42:01.6154|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Create.
+2020-06-07 13:42:01.6564|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Create executed in 23.6746ms.
+2020-06-07 13:42:01.6674|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Create (Ejemplo1) in 78.1608ms
+2020-06-07 13:42:01.6895|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 106.4952ms 200 text/html; charset=utf-8
+2020-06-07 13:42:03.3913|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Cuentas/Registro  
+2020-06-07 13:42:03.3971|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Registro() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 13:42:03.3971|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Valid
+2020-06-07 13:42:03.4133|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0402ms.
+2020-06-07 13:42:03.4133|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Registro.
+2020-06-07 13:42:03.4979|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Registro executed in 16.2321ms.
+2020-06-07 13:42:03.5144|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 102.2695ms
+2020-06-07 13:42:03.5239|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 129.6546ms 200 text/html; charset=utf-8
+2020-06-07 13:56:41.0977|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\yiyos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-07 13:56:42.7932|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 13:56:43.4523|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 13:56:44.3337|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 13:56:45.1249|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2020-06-07 13:56:45.6050|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 13:56:45.7761|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1415.8183ms.
+2020-06-07 13:56:45.8351|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 13:56:46.3340|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 528.3477ms.
+2020-06-07 13:56:46.3749|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 2881.5792ms
+2020-06-07 13:56:46.4737|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3645.0605ms 200 text/html; charset=utf-8
+2020-06-07 13:56:46.5530|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/images/7cd311ae-924b-40b5-9742-a60713f6e419_img.jpg?v=xPOhp9HBgL9gXl46ZPkz1ntyD7KxOBQaTO9u6YMXjGk  
+2020-06-07 13:56:46.6277|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /images/7cd311ae-924b-40b5-9742-a60713f6e419_img.jpg was not modified
+2020-06-07 13:56:46.6626|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 108.7551ms 304 image/jpeg
+2020-06-07 13:56:46.8365|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/favicon.ico  
+2020-06-07 13:56:46.9514|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 110.0699ms 404 
+2020-06-07 13:56:48.2067|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Cuentas/Login  
+2020-06-07 13:56:48.2273|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Cuentas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 13:56:48.2273|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) - Validation state: Valid
+2020-06-07 13:56:48.2273|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5482ms.
+2020-06-07 13:56:48.2782|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login.
+2020-06-07 13:56:48.4018|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 150.3881ms.
+2020-06-07 13:56:48.4018|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) in 177.8605ms
+2020-06-07 13:56:48.4159|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 208.5635ms 200 text/html; charset=utf-8
+2020-06-07 13:57:06.5788|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/Login application/x-www-form-urlencoded 256
+2020-06-07 13:57:06.5923|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11.199ms 404 
+2020-06-07 13:57:20.0782|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Cuentas/Login  
+2020-06-07 13:57:20.0855|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Cuentas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 13:57:20.0855|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) - Validation state: Valid
+2020-06-07 13:57:20.0855|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0405ms.
+2020-06-07 13:57:20.1063|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login.
+2020-06-07 13:57:20.1177|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 14.51ms.
+2020-06-07 13:57:20.1352|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) in 34.0812ms
+2020-06-07 13:57:20.1352|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 63.2903ms 200 text/html; charset=utf-8
+2020-06-07 13:58:32.7323|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 13:58:32.7504|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 13:58:32.7643|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 13:58:32.7723|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 13:58:32.7723|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 8.6613ms.
+2020-06-07 13:58:32.7723|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 13:58:32.7937|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 7.653ms.
+2020-06-07 13:58:32.7937|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 43.4508ms
+2020-06-07 13:58:32.8055|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 73.7624ms 200 text/html; charset=utf-8
+2020-06-07 13:58:34.7276|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Cuentas/Registro  
+2020-06-07 13:58:34.7276|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Registro() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 13:58:34.7413|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Valid
+2020-06-07 13:58:34.7413|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3803ms.
+2020-06-07 13:58:34.7691|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Registro.
+2020-06-07 13:58:34.8263|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Registro executed in 74.758ms.
+2020-06-07 13:58:34.8263|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 91.3089ms
+2020-06-07 13:58:34.8414|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 112.5393ms 200 text/html; charset=utf-8
+2020-06-07 13:58:42.4008|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/home/create  
+2020-06-07 13:58:42.4008|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Create", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Create() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 13:58:42.4144|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Create (Ejemplo1) - Validation state: Valid
+2020-06-07 13:58:42.4144|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Create (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3842ms.
+2020-06-07 13:58:42.4365|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Create.
+2020-06-07 13:58:42.5317|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Create executed in 108.5143ms.
+2020-06-07 13:58:42.5417|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Create (Ejemplo1) in 127.2702ms
+2020-06-07 13:58:42.5417|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 152.7936ms 200 text/html; charset=utf-8
+2020-06-07 13:58:43.7989|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 13:58:43.8059|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 13:58:43.8059|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 13:58:43.8195|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 13:58:43.8195|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 6.5132ms.
+2020-06-07 13:58:43.8195|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 13:58:43.8347|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 5.8837ms.
+2020-06-07 13:58:43.8347|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 35.48ms
+2020-06-07 13:58:43.8535|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 52.88ms 200 text/html; charset=utf-8
+2020-06-07 13:59:00.2741|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 13:59:00.2741|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 13:59:00.2910|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 13:59:00.2910|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 13:59:00.2910|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 6.3011ms.
+2020-06-07 13:59:00.3078|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 13:59:00.3078|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 6.2771ms.
+2020-06-07 13:59:00.3244|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 30.3382ms
+2020-06-07 13:59:00.3348|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 56.3323ms 200 text/html; charset=utf-8
+2020-06-07 13:59:01.8734|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 13:59:01.8734|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 13:59:01.8846|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 13:59:01.8846|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 13:59:01.8846|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 4.8765ms.
+2020-06-07 13:59:01.8984|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 13:59:01.8984|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 6.3511ms.
+2020-06-07 13:59:01.9168|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 33.1991ms
+2020-06-07 13:59:01.9168|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 49.9928ms 200 text/html; charset=utf-8
+2020-06-07 13:59:01.9635|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/images/7cd311ae-924b-40b5-9742-a60713f6e419_img.jpg?v=xPOhp9HBgL9gXl46ZPkz1ntyD7KxOBQaTO9u6YMXjGk  
+2020-06-07 13:59:01.9635|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /images/7cd311ae-924b-40b5-9742-a60713f6e419_img.jpg was not modified
+2020-06-07 13:59:01.9916|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 18.6562ms 304 image/jpeg
+2020-06-07 13:59:02.7930|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/home/create  
+2020-06-07 13:59:02.7930|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Create", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Create() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 13:59:02.7930|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Create (Ejemplo1) - Validation state: Valid
+2020-06-07 13:59:02.8060|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Create (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0349ms.
+2020-06-07 13:59:02.8060|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Create.
+2020-06-07 13:59:02.8219|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Create executed in 10.0722ms.
+2020-06-07 13:59:02.8219|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Create (Ejemplo1) in 25.0665ms
+2020-06-07 13:59:02.8388|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 42.1343ms 200 text/html; charset=utf-8
+2020-06-07 13:59:03.3548|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 13:59:03.3548|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 13:59:03.3548|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 13:59:03.3711|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 13:59:03.3711|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 10.2107ms.
+2020-06-07 13:59:03.3946|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 13:59:03.4151|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 18.0508ms.
+2020-06-07 13:59:03.4151|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 56.0487ms
+2020-06-07 13:59:03.4301|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 74.2347ms 200 text/html; charset=utf-8
+2020-06-07 13:59:05.8003|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/home/edit/2002  
+2020-06-07 13:59:05.8272|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Edit", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Edit(Int32) on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 13:59:05.8565|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Edit (Ejemplo1) - Validation state: Valid
+2020-06-07 13:59:05.9272|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Ciudad], [e].[Email], [e].[Nombre], [e].[rutaFoto]
+FROM [AppDbContextAmigos] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-06-07 13:59:05.9487|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Edit (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 87.478ms.
+2020-06-07 13:59:05.9654|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Edit.
+2020-06-07 13:59:06.0553|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Edit executed in 101.218ms.
+2020-06-07 13:59:06.0553|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Edit (Ejemplo1) in 228.8534ms
+2020-06-07 13:59:06.0747|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 274.4154ms 200 text/html; charset=utf-8
+2020-06-07 14:06:20.5577|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\yiyos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-07 14:06:21.3154|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 14:06:21.6571|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 14:06:22.0942|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 14:06:22.5002|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2020-06-07 14:06:22.9245|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 14:06:23.0228|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 920.2551ms.
+2020-06-07 14:06:23.0709|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 14:06:23.5481|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 507.1208ms.
+2020-06-07 14:06:23.5562|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 1891.8739ms
+2020-06-07 14:06:23.5800|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2264.8971ms 200 text/html; charset=utf-8
+2020-06-07 14:06:23.6533|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/images/7cd311ae-924b-40b5-9742-a60713f6e419_img.jpg?v=xPOhp9HBgL9gXl46ZPkz1ntyD7KxOBQaTO9u6YMXjGk  
+2020-06-07 14:06:23.6729|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /images/7cd311ae-924b-40b5-9742-a60713f6e419_img.jpg was not modified
+2020-06-07 14:06:23.6845|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 31.3151ms 304 image/jpeg
+2020-06-07 14:06:23.8433|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/favicon.ico  
+2020-06-07 14:06:23.8762|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 39.8783ms 404 
+2020-06-07 14:06:25.5391|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Cuentas/Login  
+2020-06-07 14:06:25.5537|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Cuentas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:06:25.5537|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) - Validation state: Valid
+2020-06-07 14:06:25.5722|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.4296ms.
+2020-06-07 14:06:25.5722|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login.
+2020-06-07 14:06:25.7445|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 165.148ms.
+2020-06-07 14:06:25.7445|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) in 194.4406ms
+2020-06-07 14:06:25.7632|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 221.4582ms 200 text/html; charset=utf-8
+2020-06-07 14:06:36.4042|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/Login application/x-www-form-urlencoded 256
+2020-06-07 14:06:36.4568|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Ejemplo1.ViewModels.LoginViewModel) on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:06:36.5259|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) - Validation state: Valid
+2020-06-07 14:06:36.6736|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (35ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2020-06-07 14:06:36.8290|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user de5e8ad1-a94b-4392-a9fa-f9dbd9287ac9.
+2020-06-07 14:06:36.8290|WARN|Microsoft.AspNetCore.Identity.SignInManager|User de5e8ad1-a94b-4392-a9fa-f9dbd9287ac9 failed to provide the correct password.
+2020-06-07 14:06:36.8466|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 313.3867ms.
+2020-06-07 14:06:36.8667|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login.
+2020-06-07 14:06:36.9118|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 39.3665ms.
+2020-06-07 14:06:36.9339|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) in 469.8221ms
+2020-06-07 14:06:36.9667|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 574.0743ms 200 text/html; charset=utf-8
+2020-06-07 14:06:49.4689|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/Login application/x-www-form-urlencoded 257
+2020-06-07 14:06:49.4689|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Ejemplo1.ViewModels.LoginViewModel) on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:06:49.4954|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) - Validation state: Valid
+2020-06-07 14:06:49.5069|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2020-06-07 14:06:49.5400|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 00277f57-1da4-44f4-9a3e-f13d4f2f926e.
+2020-06-07 14:06:49.5400|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 00277f57-1da4-44f4-9a3e-f13d4f2f926e failed to provide the correct password.
+2020-06-07 14:06:49.5400|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 48.8997ms.
+2020-06-07 14:06:49.5545|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login.
+2020-06-07 14:06:49.5545|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 7.6005ms.
+2020-06-07 14:06:49.5545|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) in 83.8117ms
+2020-06-07 14:06:49.5794|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 107.6073ms 200 text/html; charset=utf-8
+2020-06-07 14:06:50.9612|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/Login application/x-www-form-urlencoded 249
+2020-06-07 14:06:50.9612|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Ejemplo1.ViewModels.LoginViewModel) on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:06:50.9612|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) - Validation state: Invalid
+2020-06-07 14:06:50.9871|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0624ms.
+2020-06-07 14:06:50.9928|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login.
+2020-06-07 14:06:50.9928|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 6.875ms.
+2020-06-07 14:06:51.0118|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) in 35.3556ms
+2020-06-07 14:06:51.0229|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 63.6336ms 200 text/html; charset=utf-8
+2020-06-07 14:06:53.3833|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Cuentas/Login  
+2020-06-07 14:06:53.3833|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Cuentas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:06:53.3833|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) - Validation state: Valid
+2020-06-07 14:06:53.4009|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0393ms.
+2020-06-07 14:06:53.4009|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login.
+2020-06-07 14:06:53.4183|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 5.6674ms.
+2020-06-07 14:06:53.4183|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) in 27.3671ms
+2020-06-07 14:06:53.4296|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 46.898ms 200 text/html; charset=utf-8
+2020-06-07 14:06:58.9918|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Cuentas/Registro  
+2020-06-07 14:06:58.9918|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Registro() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:06:58.9918|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Valid
+2020-06-07 14:06:59.0096|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3626ms.
+2020-06-07 14:06:59.0299|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Registro.
+2020-06-07 14:06:59.0869|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Registro executed in 61.5169ms.
+2020-06-07 14:06:59.0869|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 87.8508ms
+2020-06-07 14:06:59.1050|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 112.2911ms 200 text/html; charset=utf-8
+2020-06-07 14:07:20.7129|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/Registro application/x-www-form-urlencoded 247
+2020-06-07 14:07:20.7326|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registro(Ejemplo1.ViewModels.RegistroModelo) on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:07:20.7326|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Valid
+2020-06-07 14:07:20.7636|WARN|Microsoft.AspNetCore.Identity.UserManager|User 724a6f73-9c50-4fb3-9d07-7cf66096e111 password validation failed: PasswordTooShort.
+2020-06-07 14:07:20.7636|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 24.4944ms.
+2020-06-07 14:07:20.7636|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Registro.
+2020-06-07 14:07:20.7858|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Registro executed in 13.8912ms.
+2020-06-07 14:07:20.7932|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 55.4982ms
+2020-06-07 14:07:20.7932|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 100.1141ms 200 text/html; charset=utf-8
+2020-06-07 14:07:32.0763|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/Registro application/x-www-form-urlencoded 248
+2020-06-07 14:07:32.0763|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registro(Ejemplo1.ViewModels.RegistroModelo) on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:07:32.0863|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Invalid
+2020-06-07 14:07:32.0863|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0782ms.
+2020-06-07 14:07:32.0863|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Registro.
+2020-06-07 14:07:32.1048|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Registro executed in 7.2872ms.
+2020-06-07 14:07:32.1048|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 27.2457ms
+2020-06-07 14:07:32.1196|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 47.2965ms 200 text/html; charset=utf-8
+2020-06-07 14:07:44.6288|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/Registro application/x-www-form-urlencoded 249
+2020-06-07 14:07:44.6337|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registro(Ejemplo1.ViewModels.RegistroModelo) on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:07:44.6337|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Valid
+2020-06-07 14:07:44.6902|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2020-06-07 14:07:44.8463|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (7ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 256), @p8='?' (Size = 256), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+2020-06-07 14:07:44.9538|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-07 14:07:45.0351|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+2020-06-07 14:07:45.0721|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed in.
+2020-06-07 14:07:45.0721|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 434.2138ms.
+2020-06-07 14:07:45.0889|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-06-07 14:07:45.0889|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 459.0353ms
+2020-06-07 14:07:45.1032|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 474.7409ms 302 
+2020-06-07 14:07:45.1032|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 14:07:45.1032|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 14:07:45.1194|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 14:07:45.1194|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 14:07:45.1315|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 7.0665ms.
+2020-06-07 14:07:45.1315|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 14:07:45.1507|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 6.1158ms.
+2020-06-07 14:07:45.1633|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 43.4294ms
+2020-06-07 14:07:45.2056|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 63.2997ms 200 text/html; charset=utf-8
+2020-06-07 14:07:51.3053|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Cuentas/Login  
+2020-06-07 14:07:51.3053|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Cuentas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:07:51.3053|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) - Validation state: Valid
+2020-06-07 14:07:51.3206|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0248ms.
+2020-06-07 14:07:51.3206|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login.
+2020-06-07 14:07:51.3206|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 5.634ms.
+2020-06-07 14:07:51.3376|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) in 21.1707ms
+2020-06-07 14:07:51.3376|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 39.9669ms 200 text/html; charset=utf-8
+2020-06-07 14:08:03.8345|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/Login application/x-www-form-urlencoded 241
+2020-06-07 14:08:03.8345|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Ejemplo1.ViewModels.LoginViewModel) on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:08:03.8345|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) - Validation state: Valid
+2020-06-07 14:08:03.8580|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2020-06-07 14:08:03.9045|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-07 14:08:03.9045|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+2020-06-07 14:08:03.9195|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed in.
+2020-06-07 14:08:03.9195|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 75.8255ms.
+2020-06-07 14:08:03.9319|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-06-07 14:08:03.9319|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) in 89.897ms
+2020-06-07 14:08:03.9319|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 110.3264ms 302 
+2020-06-07 14:08:03.9463|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 14:08:03.9463|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 14:08:03.9463|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 14:08:03.9463|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 14:08:03.9633|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 4.7713ms.
+2020-06-07 14:08:03.9633|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 14:08:03.9633|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 5.433ms.
+2020-06-07 14:08:03.9817|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 24.5298ms
+2020-06-07 14:08:03.9817|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 40.7442ms 200 text/html; charset=utf-8
+2020-06-07 14:08:45.3573|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Cuentas/Login  
+2020-06-07 14:08:45.3686|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Cuentas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:08:45.3686|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) - Validation state: Valid
+2020-06-07 14:08:45.3686|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0242ms.
+2020-06-07 14:08:45.3686|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login.
+2020-06-07 14:08:45.3944|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 10.278ms.
+2020-06-07 14:08:45.4191|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) in 31.2516ms
+2020-06-07 14:08:45.4191|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 69.081ms 200 text/html; charset=utf-8
+2020-06-07 14:08:56.2960|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/Login application/x-www-form-urlencoded 241
+2020-06-07 14:08:56.3049|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Ejemplo1.ViewModels.LoginViewModel) on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:08:56.3049|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) - Validation state: Valid
+2020-06-07 14:08:56.3268|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (10ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2020-06-07 14:08:56.3592|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-07 14:08:56.3699|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+2020-06-07 14:08:56.3699|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed in.
+2020-06-07 14:08:56.3812|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 65.7788ms.
+2020-06-07 14:08:56.3812|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-06-07 14:08:56.3812|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) in 80.3302ms
+2020-06-07 14:08:56.3975|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 101.1374ms 302 
+2020-06-07 14:08:56.3975|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 14:08:56.4159|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 14:08:56.4159|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 14:08:56.4293|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 14:08:56.4293|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 7.1142ms.
+2020-06-07 14:08:56.4450|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 14:08:56.4450|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 8.8921ms.
+2020-06-07 14:08:56.4628|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 38.7469ms
+2020-06-07 14:08:56.4628|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 65.2548ms 200 text/html; charset=utf-8
+2020-06-07 14:15:50.0472|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\yiyos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-07 14:15:50.6996|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 14:15:50.9917|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 14:15:51.3649|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 14:15:51.7354|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2020-06-07 14:15:52.1149|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 14:15:52.2054|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 831.405ms.
+2020-06-07 14:15:52.2581|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 14:15:52.7245|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 474.0011ms.
+2020-06-07 14:15:52.7428|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 1735.0071ms
+2020-06-07 14:15:52.8424|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2108.3176ms 200 text/html; charset=utf-8
+2020-06-07 14:15:52.8424|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/images/7cd311ae-924b-40b5-9742-a60713f6e419_img.jpg?v=xPOhp9HBgL9gXl46ZPkz1ntyD7KxOBQaTO9u6YMXjGk  
+2020-06-07 14:15:52.8986|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /images/7cd311ae-924b-40b5-9742-a60713f6e419_img.jpg was not modified
+2020-06-07 14:15:52.9589|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 95.2699ms 304 image/jpeg
+2020-06-07 14:15:53.0753|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/favicon.ico  
+2020-06-07 14:15:53.1106|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 35.9237ms 404 
+2020-06-07 14:15:58.7701|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Cuentas/Registro  
+2020-06-07 14:15:58.7835|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Registro() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:15:58.7903|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Valid
+2020-06-07 14:15:58.7903|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.7293ms.
+2020-06-07 14:15:58.8091|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Registro.
+2020-06-07 14:15:58.9426|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Registro executed in 140.5138ms.
+2020-06-07 14:15:58.9541|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 161.1466ms
+2020-06-07 14:15:58.9630|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 189.2914ms 200 text/html; charset=utf-8
+2020-06-07 14:16:00.3456|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Cuentas/Login  
+2020-06-07 14:16:00.3539|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Cuentas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:16:00.3539|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) - Validation state: Valid
+2020-06-07 14:16:00.3686|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4468ms.
+2020-06-07 14:16:00.3686|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login.
+2020-06-07 14:16:00.4323|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 57.8113ms.
+2020-06-07 14:16:00.4323|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) in 77.4748ms
+2020-06-07 14:16:00.4440|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 102.4299ms 200 text/html; charset=utf-8
+2020-06-07 14:16:13.3855|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/Login application/x-www-form-urlencoded 241
+2020-06-07 14:16:13.4301|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Ejemplo1.ViewModels.LoginViewModel) on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:16:13.4959|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) - Validation state: Valid
+2020-06-07 14:16:13.6242|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (21ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2020-06-07 14:16:13.9047|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (9ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-07 14:16:13.9927|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+2020-06-07 14:16:14.0201|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed in.
+2020-06-07 14:16:14.0333|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 533.4759ms.
+2020-06-07 14:16:14.0467|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-06-07 14:16:14.0550|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) in 620.8936ms
+2020-06-07 14:16:14.0550|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 680.0218ms 302 
+2020-06-07 14:16:14.0691|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 14:16:14.0691|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 14:16:14.0691|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 14:16:14.0845|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 14:16:14.0845|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 6.7744ms.
+2020-06-07 14:16:14.0845|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 14:16:14.1014|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 7.0099ms.
+2020-06-07 14:16:14.1014|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 28.7374ms
+2020-06-07 14:16:14.1014|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 43.85ms 200 text/html; charset=utf-8
+2020-06-07 14:27:15.3077|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\yiyos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-07 14:27:16.9676|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 14:27:17.7989|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 14:27:19.0263|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 14:27:19.6436|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2020-06-07 14:27:20.4342|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (18ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 14:27:20.5550|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1503.6078ms.
+2020-06-07 14:27:20.6451|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 14:27:21.4468|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 866.0268ms.
+2020-06-07 14:27:21.4468|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 3640.735ms
+2020-06-07 14:27:21.4816|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4513.6313ms 200 text/html; charset=utf-8
+2020-06-07 14:27:21.7245|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/images/7cd311ae-924b-40b5-9742-a60713f6e419_img.jpg?v=xPOhp9HBgL9gXl46ZPkz1ntyD7KxOBQaTO9u6YMXjGk  
+2020-06-07 14:27:21.7543|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /images/7cd311ae-924b-40b5-9742-a60713f6e419_img.jpg was not modified
+2020-06-07 14:27:21.7748|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 49.5813ms 304 image/jpeg
+2020-06-07 14:27:22.3453|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/favicon.ico  
+2020-06-07 14:27:22.4087|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 112.1034ms 404 
+2020-06-07 14:27:25.9499|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/CerrarSesion application/x-www-form-urlencoded 182
+2020-06-07 14:27:25.9799|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "CerrarSesion", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CerrarSesion() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:27:25.9911|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1) - Validation state: Valid
+2020-06-07 14:27:26.0242|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed out.
+2020-06-07 14:27:26.0242|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.External signed out.
+2020-06-07 14:27:26.0387|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2020-06-07 14:27:26.0387|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 49.0962ms.
+2020-06-07 14:27:26.0531|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-06-07 14:27:26.0531|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1) in 75.1812ms
+2020-06-07 14:27:26.0782|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 122.1603ms 302 
+2020-06-07 14:27:26.0929|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 14:27:26.1020|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 14:27:26.1161|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 14:27:26.3366|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (207ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 14:27:26.3366|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 218.8233ms.
+2020-06-07 14:27:26.3525|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 14:27:26.3764|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 14.9614ms.
+2020-06-07 14:27:26.3864|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 271.6037ms
+2020-06-07 14:27:26.3864|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 312.3959ms 200 text/html; charset=utf-8
+2020-06-07 14:27:27.6874|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/CerrarSesion application/x-www-form-urlencoded 182
+2020-06-07 14:27:27.6945|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "CerrarSesion", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CerrarSesion() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:27:27.7124|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1) - Validation state: Valid
+2020-06-07 14:27:27.7124|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed out.
+2020-06-07 14:27:27.7303|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.External signed out.
+2020-06-07 14:27:27.7303|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2020-06-07 14:27:27.7418|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 23.9696ms.
+2020-06-07 14:27:27.7418|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-06-07 14:27:27.7418|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1) in 52.6587ms
+2020-06-07 14:27:27.7650|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 75.7112ms 302 
+2020-06-07 14:27:27.7650|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 14:27:27.7774|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 14:27:27.7774|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 14:27:27.7912|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 14:27:27.7912|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 8.0943ms.
+2020-06-07 14:27:27.8042|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 14:27:27.8042|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 10.0909ms.
+2020-06-07 14:27:27.8226|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 36.8176ms
+2020-06-07 14:27:27.8226|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 61.7165ms 200 text/html; charset=utf-8
+2020-06-07 14:27:35.1291|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Cuentas/Registro  
+2020-06-07 14:27:35.1392|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Registro", controller = "Cuentas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Registro() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:27:35.1511|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) - Validation state: Valid
+2020-06-07 14:27:35.1511|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5686ms.
+2020-06-07 14:27:35.1736|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Registro.
+2020-06-07 14:27:35.2637|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Registro executed in 98.6325ms.
+2020-06-07 14:27:35.2719|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Registro (Ejemplo1) in 124.0808ms
+2020-06-07 14:27:35.2719|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 150.7334ms 200 text/html; charset=utf-8
+2020-06-07 14:27:40.7209|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Cuentas/Login  
+2020-06-07 14:27:40.7289|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Cuentas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:27:40.7289|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) - Validation state: Valid
+2020-06-07 14:27:40.7425|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.402ms.
+2020-06-07 14:27:40.7425|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login.
+2020-06-07 14:27:40.8257|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 76.0421ms.
+2020-06-07 14:27:40.8378|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) in 102.7083ms
+2020-06-07 14:27:40.8378|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 124.0768ms 200 text/html; charset=utf-8
+2020-06-07 14:27:49.9198|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/Login application/x-www-form-urlencoded 241
+2020-06-07 14:27:49.9786|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Ejemplo1.ViewModels.LoginViewModel) on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:27:50.1011|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) - Validation state: Valid
+2020-06-07 14:27:50.3445|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (68ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2020-06-07 14:27:50.7518|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (8ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-07 14:27:50.8666|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (8ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+2020-06-07 14:27:50.9163|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed in.
+2020-06-07 14:27:50.9503|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 828.5887ms.
+2020-06-07 14:27:50.9697|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-06-07 14:27:50.9807|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) in 993.1045ms
+2020-06-07 14:27:51.0013|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1075.3796ms 302 
+2020-06-07 14:27:51.0013|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 14:27:51.0108|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 14:27:51.0108|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 14:27:51.0267|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 14:27:51.0267|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 10.0316ms.
+2020-06-07 14:27:51.0383|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 14:27:51.1201|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 7.6889ms.
+2020-06-07 14:27:51.1397|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 113.6586ms
+2020-06-07 14:27:51.1531|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 144.8031ms 200 text/html; charset=utf-8
+2020-06-07 14:27:52.9565|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/CerrarSesion application/x-www-form-urlencoded 182
+2020-06-07 14:27:52.9651|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "CerrarSesion", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CerrarSesion() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:27:52.9831|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1) - Validation state: Valid
+2020-06-07 14:27:52.9952|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed out.
+2020-06-07 14:27:52.9952|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.External signed out.
+2020-06-07 14:27:52.9952|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2020-06-07 14:27:53.0115|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 23.3451ms.
+2020-06-07 14:27:53.0115|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-06-07 14:27:53.0244|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1) in 51.7462ms
+2020-06-07 14:27:53.0244|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 80.2367ms 302 
+2020-06-07 14:27:53.0244|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 14:27:53.0452|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 14:27:53.0452|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 14:27:53.0577|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 14:27:53.0577|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 7.3913ms.
+2020-06-07 14:27:53.0715|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 14:27:53.0863|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 9.022ms.
+2020-06-07 14:27:53.1232|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 56.0507ms
+2020-06-07 14:27:53.1346|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 100.3584ms 200 text/html; charset=utf-8
+2020-06-07 14:27:54.1324|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/CerrarSesion application/x-www-form-urlencoded 182
+2020-06-07 14:27:54.1324|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "CerrarSesion", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CerrarSesion() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:27:54.1475|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1) - Validation state: Valid
+2020-06-07 14:27:54.1475|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed out.
+2020-06-07 14:27:54.1475|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.External signed out.
+2020-06-07 14:27:54.1475|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2020-06-07 14:27:54.1653|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 13.0234ms.
+2020-06-07 14:27:54.1653|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-06-07 14:27:54.1653|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1) in 27.854ms
+2020-06-07 14:27:54.1803|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 48.0954ms 302 
+2020-06-07 14:27:54.1803|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 14:27:54.1803|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 14:27:54.1962|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 14:27:54.1962|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 14:27:54.1962|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 6.8666ms.
+2020-06-07 14:27:54.2128|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 14:27:54.2396|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 8.0016ms.
+2020-06-07 14:27:54.2726|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 50.5351ms
+2020-06-07 14:27:54.2898|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 94.0128ms 200 text/html; charset=utf-8
+2020-06-07 14:27:54.7638|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/CerrarSesion application/x-www-form-urlencoded 182
+2020-06-07 14:27:54.7762|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "CerrarSesion", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CerrarSesion() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:27:54.7910|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1) - Validation state: Valid
+2020-06-07 14:27:54.7910|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed out.
+2020-06-07 14:27:54.8069|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.External signed out.
+2020-06-07 14:27:54.8069|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2020-06-07 14:27:54.8333|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 24.4899ms.
+2020-06-07 14:27:54.8436|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-06-07 14:27:54.8536|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1) in 64.7424ms
+2020-06-07 14:27:54.8536|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 99.6759ms 302 
+2020-06-07 14:27:54.8700|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 14:27:54.8828|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 14:27:54.8828|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 14:27:54.9025|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 14:27:54.9025|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 10.6898ms.
+2020-06-07 14:27:54.9211|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 14:27:54.9364|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 11.5882ms.
+2020-06-07 14:27:54.9534|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 54.8749ms
+2020-06-07 14:27:54.9817|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 95.7025ms 200 text/html; charset=utf-8
+2020-06-07 14:27:55.2364|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/CerrarSesion application/x-www-form-urlencoded 182
+2020-06-07 14:27:55.2364|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "CerrarSesion", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CerrarSesion() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:27:55.2467|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1) - Validation state: Valid
+2020-06-07 14:27:55.2467|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed out.
+2020-06-07 14:27:55.2467|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.External signed out.
+2020-06-07 14:27:55.2590|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2020-06-07 14:27:55.2590|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 12.2501ms.
+2020-06-07 14:27:55.2590|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-06-07 14:27:55.2779|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1) in 31.6857ms
+2020-06-07 14:27:55.2779|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 48.4019ms 302 
+2020-06-07 14:27:55.2915|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 14:27:55.2915|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 14:27:55.3052|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 14:27:55.3052|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 14:27:55.3314|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 8.5404ms.
+2020-06-07 14:27:55.3380|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 14:27:55.4788|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 9.5411ms.
+2020-06-07 14:27:55.4788|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 181.8185ms
+2020-06-07 14:27:55.4929|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 202.3853ms 200 text/html; charset=utf-8
+2020-06-07 14:27:55.5440|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/CerrarSesion application/x-www-form-urlencoded 182
+2020-06-07 14:27:55.5573|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "CerrarSesion", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CerrarSesion() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:27:55.5767|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1) - Validation state: Valid
+2020-06-07 14:27:55.5883|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed out.
+2020-06-07 14:27:55.6090|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.External signed out.
+2020-06-07 14:27:55.6258|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2020-06-07 14:27:55.6414|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 48.8846ms.
+2020-06-07 14:27:55.6596|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-06-07 14:27:55.6827|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1) in 101.2134ms
+2020-06-07 14:27:55.7137|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 161.0119ms 302 
+2020-06-07 14:27:55.7137|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 14:27:55.7371|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 14:27:55.7462|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 14:27:55.7603|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 14:27:55.7603|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 11.5669ms.
+2020-06-07 14:27:55.7776|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 14:27:55.7776|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 13.7487ms.
+2020-06-07 14:27:55.7904|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 45.3002ms
+2020-06-07 14:27:55.8067|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 84.7015ms 200 text/html; charset=utf-8
+2020-06-07 14:27:55.9891|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/CerrarSesion application/x-www-form-urlencoded 182
+2020-06-07 14:27:55.9933|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "CerrarSesion", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CerrarSesion() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:27:55.9933|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1) - Validation state: Valid
+2020-06-07 14:27:56.0075|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed out.
+2020-06-07 14:27:56.0075|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.External signed out.
+2020-06-07 14:27:56.0259|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2020-06-07 14:27:56.0259|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 22.9844ms.
+2020-06-07 14:27:56.0259|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-06-07 14:27:56.0390|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1) in 41.8397ms
+2020-06-07 14:27:56.0390|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 54.3099ms 302 
+2020-06-07 14:27:56.0542|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 14:27:56.0542|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 14:27:56.0542|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 14:27:56.0824|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 14:27:56.0897|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 15.3988ms.
+2020-06-07 14:27:56.1027|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 14:27:56.1331|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 16.1874ms.
+2020-06-07 14:27:56.1626|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 75.0088ms
+2020-06-07 14:27:56.1929|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 121.9503ms 200 text/html; charset=utf-8
+2020-06-07 14:27:57.5705|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/home/create  
+2020-06-07 14:27:57.5705|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Create", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Create() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 14:27:57.5849|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Create (Ejemplo1) - Validation state: Valid
+2020-06-07 14:27:57.5849|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Create (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3611ms.
+2020-06-07 14:27:57.6352|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Create.
+2020-06-07 14:27:57.7939|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Create executed in 189.4664ms.
+2020-06-07 14:27:57.7939|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Create (Ejemplo1) in 214.4558ms
+2020-06-07 14:27:57.8088|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 238.0413ms 200 text/html; charset=utf-8
+2020-06-07 14:27:58.7702|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/CerrarSesion application/x-www-form-urlencoded 182
+2020-06-07 14:27:58.7869|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "CerrarSesion", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CerrarSesion() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-07 14:27:58.7945|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1) - Validation state: Valid
+2020-06-07 14:27:58.7945|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed out.
+2020-06-07 14:27:58.8085|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.External signed out.
+2020-06-07 14:27:58.8085|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2020-06-07 14:27:58.8213|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 21.2723ms.
+2020-06-07 14:27:58.8213|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-06-07 14:27:58.8213|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.CerrarSesion (Ejemplo1) in 40.839ms
+2020-06-07 14:27:58.8409|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 72.817ms 302 
+2020-06-07 14:27:58.8409|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-07 14:27:58.8545|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-07 14:27:58.8545|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-07 14:27:58.8689|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-07 14:27:58.8689|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 7.1917ms.
+2020-06-07 14:27:58.8833|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-07 14:27:58.8833|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 11.8504ms.
+2020-06-07 14:27:58.9123|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 37.6668ms
+2020-06-07 14:27:58.9212|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 74.8982ms 200 text/html; charset=utf-8

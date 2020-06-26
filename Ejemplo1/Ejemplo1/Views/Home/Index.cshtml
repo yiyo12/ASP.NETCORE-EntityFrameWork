@@ -1,0 +1,52 @@
+﻿@model List<Amigo>
+
+
+
+@{
+    //Cuando se tiene eun _ViewStart no es necesario especificar en cada vista la ruta
+
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+
+
+    ViewBag.Title = "Amigos index";
+}
+    <div class="container">
+
+        <div class="row">
+
+            <div class="card-body">
+                @foreach (var amigo in Model)
+                {
+                    var rutaImagen = "~/images/" + (amigo.rutaFoto ?? "NoIMG.png");
+
+                <div class="card m-3" style="min-width:18rem; max-width:30.5%">
+                    <div class="card-header">
+                        <h3>@amigo.Nombre</h3>
+                    </div>
+
+                    <img src="@rutaImagen" class="card-img-top imagen" asp-append-version="true" />
+
+                    <div class="card-footer text-center">
+
+                        <a asp-controller="home" asp-action="details" asp-route-id="@amigo.Id" class="btn btn-primary">Ver</a>
+                        <a asp-controller="home" asp-action="edit" asp-route-id="@amigo.Id" class="btn btn-primary">Editar</a>
+                        <a href="#" class="btn btn-danger">Borrar</a>
+
+                    </div>
+
+                </div>
+                }
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+<!--Para decir que no muestre el script en la pagina index.cshtml (esta).-->
+@*@section Scripts
+    {
+        <script src="~/Js/Miscript.js"></script>
+    }*@

@@ -1,0 +1,309 @@
+2020-06-19 22:14:31.5754|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\yiyos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-19 22:14:32.5281|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-19 22:14:33.3112|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-19 22:14:33.3379|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2020-06-19 22:14:33.3379|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2020-06-19 22:14:33.3506|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2020-06-19 22:14:33.3956|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application was challenged.
+2020-06-19 22:14:33.3956|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 83.2634ms
+2020-06-19 22:14:33.4367|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Cuentas/Login?ReturnUrl=%2F  
+2020-06-19 22:14:33.4548|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 917.9287ms 302 
+2020-06-19 22:14:33.4548|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Cuentas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-19 22:14:34.2287|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) - Validation state: Valid
+2020-06-19 22:14:34.2398|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.9341ms.
+2020-06-19 22:14:34.3307|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login.
+2020-06-19 22:14:35.3953|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 1120.7209ms.
+2020-06-19 22:14:35.5118|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) in 1958.7672ms
+2020-06-19 22:14:35.5197|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/lib/jquery-validate/jquery.validate.js  
+2020-06-19 22:14:35.5673|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js  
+2020-06-19 22:14:35.5673|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2101.3389ms 200 text/html; charset=utf-8
+2020-06-19 22:14:35.5673|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/jquery-validate/jquery.validate.js was not modified
+2020-06-19 22:14:35.5673|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js was not modified
+2020-06-19 22:14:35.5920|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 90.4713ms 304 application/javascript
+2020-06-19 22:14:35.5977|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 61.5065ms 304 application/javascript
+2020-06-19 22:14:35.7802|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/favicon.ico  
+2020-06-19 22:14:35.7887|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.4106ms 404 
+2020-06-19 22:15:18.1860|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\yiyos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-19 22:15:18.7216|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-19 22:15:18.9715|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-19 22:15:18.9894|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2020-06-19 22:15:18.9894|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2020-06-19 22:15:19.0013|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2020-06-19 22:15:19.0317|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application was challenged.
+2020-06-19 22:15:19.1398|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 73.5833ms
+2020-06-19 22:15:19.1980|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Cuentas/Login?ReturnUrl=%2F  
+2020-06-19 22:15:19.2150|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 484.6434ms 302 
+2020-06-19 22:15:19.2294|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Cuentas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-19 22:15:19.7478|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) - Validation state: Valid
+2020-06-19 22:15:19.7616|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.9622ms.
+2020-06-19 22:15:19.8254|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login.
+2020-06-19 22:15:20.2939|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 513.8125ms.
+2020-06-19 22:15:20.2939|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) in 1055.651ms
+2020-06-19 22:15:20.3185|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1119.351ms 200 text/html; charset=utf-8
+2020-06-19 22:15:59.2273|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:51531/Cuentas/Login?ReturnUrl=%2F application/x-www-form-urlencoded 256
+2020-06-19 22:15:59.2845|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Cuentas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Ejemplo1.ViewModels.LoginViewModel) on controller Ejemplo1.Controllers.CuentasController (Ejemplo1).
+2020-06-19 22:15:59.3937|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) - Validation state: Valid
+2020-06-19 22:15:59.9106|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2020-06-19 22:16:00.4838|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (31ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName], [u].[ayudaPass]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2020-06-19 22:16:00.7252|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-19 22:16:00.7913|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+2020-06-19 22:16:00.8196|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed in.
+2020-06-19 22:16:00.8312|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.CuentasController.Login (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 1432.8591ms.
+2020-06-19 22:16:00.8462|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-06-19 22:16:00.8462|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.CuentasController.Login (Ejemplo1) in 1561.8622ms
+2020-06-19 22:16:00.8671|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1654.7542ms 302 
+2020-06-19 22:16:00.8671|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-19 22:16:00.8845|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-19 22:16:00.8845|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-19 22:16:00.8940|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-19 22:16:00.9125|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-19 22:16:00.9509|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 53.6685ms.
+2020-06-19 22:16:00.9946|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-19 22:16:01.1150|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 160.603ms.
+2020-06-19 22:16:01.1150|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 231.1014ms
+2020-06-19 22:16:01.1289|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 254.9234ms 200 text/html; charset=utf-8
+2020-06-19 22:16:01.1716|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/images/7cd311ae-924b-40b5-9742-a60713f6e419_img.jpg?v=xPOhp9HBgL9gXl46ZPkz1ntyD7KxOBQaTO9u6YMXjGk  
+2020-06-19 22:16:01.1761|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/images/db2f4f57-a8a0-479d-9f05-324815cb3b78_104163292_176234673851612_1050050386492913830_n.jpg?v=ah13EPoF6g1vqV6IJY2iQirCfbW7DsqXS5LWKrIu-kU  
+2020-06-19 22:16:01.1761|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /images/7cd311ae-924b-40b5-9742-a60713f6e419_img.jpg was not modified
+2020-06-19 22:16:01.1967|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 29.03ms 304 image/jpeg
+2020-06-19 22:16:01.1967|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/images/db2f4f57-a8a0-479d-9f05-324815cb3b78_104163292_176234673851612_1050050386492913830_n.jpg'. Physical path: 'C:\Users\yiyos\Desktop\CursoC#\CursoNetCoreYou\Ejemplo1\Ejemplo1\wwwroot\images\db2f4f57-a8a0-479d-9f05-324815cb3b78_104163292_176234673851612_1050050386492913830_n.jpg'
+2020-06-19 22:16:01.2125|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 34.6506ms 200 image/jpeg
+2020-06-19 22:16:22.0079|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-19 22:16:22.0185|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-19 22:16:22.0185|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-19 22:16:22.0331|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-19 22:16:22.0331|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-19 22:16:22.0331|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 4.7217ms.
+2020-06-19 22:16:22.0511|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-19 22:16:22.0511|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 6.4955ms.
+2020-06-19 22:16:22.0677|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 37.9385ms
+2020-06-19 22:16:22.0677|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 81.3776ms 200 text/html; charset=utf-8
+2020-06-19 22:16:23.5474|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/home/create  
+2020-06-19 22:16:23.5581|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Create", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Create() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-19 22:16:23.5581|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-19 22:16:23.5678|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Create (Ejemplo1) - Validation state: Valid
+2020-06-19 22:16:23.5678|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Create (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3705ms.
+2020-06-19 22:16:23.6101|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Create.
+2020-06-19 22:16:23.6895|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Create executed in 112.861ms.
+2020-06-19 22:16:23.6895|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Create (Ejemplo1) in 136.1587ms
+2020-06-19 22:16:23.7085|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 161.8212ms 200 text/html; charset=utf-8
+2020-06-19 22:16:24.9815|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-19 22:16:24.9815|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-19 22:16:24.9916|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-19 22:16:24.9916|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-19 22:16:24.9916|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-19 22:16:25.0053|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 4.0743ms.
+2020-06-19 22:16:25.0053|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-19 22:16:25.0053|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 5.1665ms.
+2020-06-19 22:16:25.0252|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 27.3911ms
+2020-06-19 22:16:25.0252|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 47.6136ms 200 text/html; charset=utf-8
+2020-06-19 22:16:26.0436|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/home/details/2  
+2020-06-19 22:16:26.0514|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Details", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Details(System.Nullable`1[System.Int32]) on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-19 22:16:26.0514|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-19 22:16:26.0656|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Details (Ejemplo1) - Validation state: Valid
+2020-06-19 22:16:26.0968|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Ciudad], [e].[Email], [e].[Nombre], [e].[rutaFoto]
+FROM [AppDbContextAmigos] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-06-19 22:16:26.1146|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Details (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 45.5785ms.
+2020-06-19 22:16:26.1424|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Details.
+2020-06-19 22:16:26.1600|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Details executed in 41.9274ms.
+2020-06-19 22:16:26.1600|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Details (Ejemplo1) in 108.5765ms
+2020-06-19 22:16:26.1600|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 129.174ms 200 text/html; charset=utf-8
+2020-06-19 22:16:26.2041|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Js/Miscript.js  
+2020-06-19 22:16:26.2498|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/Js/Miscript.js'. Physical path: 'C:\Users\yiyos\Desktop\CursoC#\CursoNetCoreYou\Ejemplo1\Ejemplo1\wwwroot\Js\Miscript.js'
+2020-06-19 22:16:26.2616|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 57.2617ms 200 application/javascript
+2020-06-19 22:16:28.6712|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-19 22:16:28.6757|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-19 22:16:28.6757|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-19 22:16:28.6757|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-19 22:16:28.6895|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-19 22:16:28.6895|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 5.2022ms.
+2020-06-19 22:16:28.6895|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-19 22:16:28.6895|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 5.376ms.
+2020-06-19 22:16:28.7089|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 27.598ms
+2020-06-19 22:16:28.7089|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 50.2141ms 200 text/html; charset=utf-8
+2020-06-19 22:16:33.9709|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/home/edit/1022  
+2020-06-19 22:16:33.9709|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Edit", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Edit(Int32) on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-19 22:16:33.9882|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-19 22:16:33.9882|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Edit (Ejemplo1) - Validation state: Valid
+2020-06-19 22:16:34.0015|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Ciudad], [e].[Email], [e].[Nombre], [e].[rutaFoto]
+FROM [AppDbContextAmigos] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-06-19 22:16:34.0015|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Edit (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 8.3856ms.
+2020-06-19 22:16:34.0388|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Edit.
+2020-06-19 22:16:34.1159|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Edit executed in 105.3149ms.
+2020-06-19 22:16:34.1159|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Edit (Ejemplo1) in 134.991ms
+2020-06-19 22:16:34.1293|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 157.418ms 200 text/html; charset=utf-8
+2020-06-19 22:16:37.5792|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-19 22:16:37.5838|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-19 22:16:37.5838|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-19 22:16:37.5838|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-19 22:16:37.5976|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-19 22:16:37.5976|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 4.4844ms.
+2020-06-19 22:16:37.5976|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-19 22:16:37.6119|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 5.1201ms.
+2020-06-19 22:16:37.6119|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 27.5509ms
+2020-06-19 22:16:37.6270|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 46.7251ms 200 text/html; charset=utf-8
+2020-06-19 22:17:17.6472|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Administracion/CrearRol  
+2020-06-19 22:17:17.6607|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "CrearRol", controller = "Administracion"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CrearRol() on controller Ejemplo1.Controllers.AdministracionController (Ejemplo1).
+2020-06-19 22:17:17.6607|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1) - Validation state: Valid
+2020-06-19 22:17:17.6607|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3042ms.
+2020-06-19 22:17:17.6774|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view CrearRol.
+2020-06-19 22:17:17.6774|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'CrearRol' was not found. Searched locations: /Views/Administracion/CrearRol.cshtml, /Views/Shared/CrearRol.cshtml, /Pages/Shared/CrearRol.cshtml
+2020-06-19 22:17:17.6905|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1) in 23.7169ms
+2020-06-19 22:17:17.8967|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2020-06-19 22:17:17.9980|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 339.3801ms 500 text/html; charset=utf-8
+2020-06-19 22:17:54.7065|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Administracion/roles  
+2020-06-19 22:17:54.7065|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.4312ms 404 
+2020-06-19 22:18:01.5749|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Administracion/Roles  
+2020-06-19 22:18:01.5749|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 23.8413ms 404 
+2020-06-19 22:18:31.9288|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Administracion/CrearRol  
+2020-06-19 22:18:31.9288|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "CrearRol", controller = "Administracion"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CrearRol() on controller Ejemplo1.Controllers.AdministracionController (Ejemplo1).
+2020-06-19 22:18:31.9422|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1) - Validation state: Valid
+2020-06-19 22:18:31.9422|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0381ms.
+2020-06-19 22:18:31.9586|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view CrearRol.
+2020-06-19 22:18:31.9586|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'CrearRol' was not found. Searched locations: /Views/Administracion/CrearRol.cshtml, /Views/Shared/CrearRol.cshtml, /Pages/Shared/CrearRol.cshtml
+2020-06-19 22:18:31.9747|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1) in 32.5674ms
+2020-06-19 22:18:31.9747|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2020-06-19 22:18:32.0054|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 74.947ms 500 text/html; charset=utf-8
+2020-06-19 22:20:41.4050|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\yiyos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-19 22:20:42.2122|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-19 22:20:43.1813|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-19 22:20:43.2125|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-19 22:20:43.2915|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-19 22:20:43.8194|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2020-06-19 22:20:44.1141|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-19 22:20:44.2025|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 902.315ms.
+2020-06-19 22:20:44.2384|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-19 22:20:44.6329|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 414.3993ms.
+2020-06-19 22:20:44.6329|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 1452.8014ms
+2020-06-19 22:20:44.6571|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2441.8766ms 200 text/html; charset=utf-8
+2020-06-19 22:21:13.7552|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Administrar/CrearRol  
+2020-06-19 22:21:13.7822|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 27.3731ms 404 
+2020-06-19 22:21:30.2483|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Administracion/CrearRol  
+2020-06-19 22:21:30.2624|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "CrearRol", controller = "Administracion"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CrearRol() on controller Ejemplo1.Controllers.AdministracionController (Ejemplo1).
+2020-06-19 22:21:30.2624|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1) - Validation state: Valid
+2020-06-19 22:21:30.2701|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4659ms.
+2020-06-19 22:21:30.2701|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view CrearRol.
+2020-06-19 22:21:30.2701|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'CrearRol' was not found. Searched locations: /Views/Administracion/CrearRol.cshtml, /Views/Shared/CrearRol.cshtml, /Pages/Shared/CrearRol.cshtml
+2020-06-19 22:21:30.2861|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1) in 20.6029ms
+2020-06-19 22:21:30.3417|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2020-06-19 22:21:30.4299|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 171.1379ms 500 text/html; charset=utf-8
+2020-06-19 22:22:32.2845|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\yiyos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-19 22:22:33.0465|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-19 22:22:33.8483|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-19 22:22:33.8670|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-19 22:22:33.8848|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-19 22:22:34.2792|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2020-06-19 22:22:34.5704|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-19 22:22:34.6620|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 760.8831ms.
+2020-06-19 22:22:34.7118|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-19 22:22:35.0703|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 386.8918ms.
+2020-06-19 22:22:35.0703|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 1222.4465ms
+2020-06-19 22:22:35.1122|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2055.1095ms 200 text/html; charset=utf-8
+2020-06-19 22:23:32.0263|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Administracion/CrearRol  
+2020-06-19 22:23:32.0662|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "CrearRol", controller = "Administracion"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CrearRol() on controller Ejemplo1.Controllers.AdministracionController (Ejemplo1).
+2020-06-19 22:23:32.0844|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1) - Validation state: Valid
+2020-06-19 22:23:32.0844|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5488ms.
+2020-06-19 22:23:32.0974|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view CrearRol.
+2020-06-19 22:23:32.0974|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'CrearRol' was not found. Searched locations: /Views/Administracion/CrearRol.cshtml, /Views/Shared/CrearRol.cshtml, /Pages/Shared/CrearRol.cshtml
+2020-06-19 22:23:32.1171|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1) in 36.879ms
+2020-06-19 22:23:32.1822|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2020-06-19 22:23:32.2794|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 264.8078ms 500 text/html; charset=utf-8
+2020-06-19 22:24:35.3233|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Administracion/CrearRol  
+2020-06-19 22:24:35.3233|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "CrearRol", controller = "Administracion"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CrearRol() on controller Ejemplo1.Controllers.AdministracionController (Ejemplo1).
+2020-06-19 22:24:35.3365|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1) - Validation state: Valid
+2020-06-19 22:24:35.3365|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0374ms.
+2020-06-19 22:24:35.3497|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view CrearRol.
+2020-06-19 22:24:35.3614|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'CrearRol' was not found. Searched locations: /Views/Administracion/CrearRol.cshtml, /Views/Shared/CrearRol.cshtml, /Pages/Shared/CrearRol.cshtml
+2020-06-19 22:24:35.3614|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1) in 34.7394ms
+2020-06-19 22:24:35.3785|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2020-06-19 22:24:35.3987|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 84.2968ms 500 text/html; charset=utf-8
+2020-06-19 22:26:30.6093|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\yiyos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-19 22:26:31.1463|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-19 22:26:31.7963|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-19 22:26:31.8219|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-19 22:26:31.8387|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-19 22:26:32.2137|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2020-06-19 22:26:32.5395|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-19 22:26:32.6455|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 795.2812ms.
+2020-06-19 22:26:32.6828|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-19 22:26:33.0714|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 409.2503ms.
+2020-06-19 22:26:33.0714|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 1276.7769ms
+2020-06-19 22:26:33.1034|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1948.023ms 200 text/html; charset=utf-8
+2020-06-19 22:27:25.3710|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/AdministrarRoles/CrearRol  
+2020-06-19 22:27:25.4031|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "CrearRol", controller = "Administracion"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CrearRol() on controller Ejemplo1.Controllers.AdministracionController (Ejemplo1).
+2020-06-19 22:27:25.4096|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1) - Validation state: Valid
+2020-06-19 22:27:25.4096|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5629ms.
+2020-06-19 22:27:25.4096|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view CrearRol.
+2020-06-19 22:27:25.4270|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'CrearRol' was not found. Searched locations: /Views/Administracion/CrearRol.cshtml, /Views/Shared/CrearRol.cshtml, /Pages/Shared/CrearRol.cshtml
+2020-06-19 22:27:25.4270|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1) in 27.4082ms
+2020-06-19 22:27:25.5096|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2020-06-19 22:27:25.5996|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 221.5374ms 500 text/html; charset=utf-8
+2020-06-19 22:28:09.3477|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/AdministrarRoles/CrearRol  
+2020-06-19 22:28:09.3477|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "CrearRol", controller = "Administracion"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CrearRol() on controller Ejemplo1.Controllers.AdministracionController (Ejemplo1).
+2020-06-19 22:28:09.3619|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1) - Validation state: Valid
+2020-06-19 22:28:09.3619|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0345ms.
+2020-06-19 22:28:09.3619|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view CrearRol.
+2020-06-19 22:28:09.3793|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'CrearRol' was not found. Searched locations: /Views/Administracion/CrearRol.cshtml, /Views/Shared/CrearRol.cshtml, /Pages/Shared/CrearRol.cshtml
+2020-06-19 22:28:09.3793|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1) in 23.4ms
+2020-06-19 22:28:09.3793|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2020-06-19 22:28:09.4120|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 64.6499ms 500 text/html; charset=utf-8
+2020-06-19 22:32:22.0668|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\yiyos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-19 22:32:22.7016|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-19 22:32:23.6074|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-19 22:32:23.6276|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-19 22:32:23.6465|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
+2020-06-19 22:32:24.1015|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2020-06-19 22:32:24.4851|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (21ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[Ciudad], [a].[Email], [a].[Nombre], [a].[rutaFoto]
+FROM [AppDbContextAmigos] AS [a]
+2020-06-19 22:32:24.6007|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 942.2718ms.
+2020-06-19 22:32:24.6479|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-19 22:32:25.1950|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 565.2557ms.
+2020-06-19 22:32:25.2078|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.HomeController.Index (Ejemplo1) in 1590.742ms
+2020-06-19 22:32:25.3118|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2540.1938ms 200 text/html; charset=utf-8
+2020-06-19 22:32:38.4227|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Administracion/CrearRol  
+2020-06-19 22:32:38.4433|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "CrearRol", controller = "Administracion"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CrearRol() on controller Ejemplo1.Controllers.AdministracionController (Ejemplo1).
+2020-06-19 22:32:38.4433|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1) - Validation state: Valid
+2020-06-19 22:32:38.4581|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.7153ms.
+2020-06-19 22:32:38.4798|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view CrearRol.
+2020-06-19 22:32:38.5374|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view CrearRol executed in 74.8729ms.
+2020-06-19 22:32:38.5504|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1) in 94.7486ms
+2020-06-19 22:32:38.5504|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 133.6757ms 200 text/html; charset=utf-8
+2020-06-19 22:33:09.4662|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/Administracion/CrearRol  
+2020-06-19 22:33:09.4722|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "CrearRol", controller = "Administracion"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CrearRol() on controller Ejemplo1.Controllers.AdministracionController (Ejemplo1).
+2020-06-19 22:33:09.4722|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1) - Validation state: Valid
+2020-06-19 22:33:09.4895|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0322ms.
+2020-06-19 22:33:12.3636|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view CrearRol.
+2020-06-19 22:33:12.3906|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view CrearRol executed in 2897.152ms.
+2020-06-19 22:33:12.3960|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Ejemplo1.Controllers.AdministracionController.CrearRol (Ejemplo1) in 2918.1409ms
+2020-06-19 22:33:12.3960|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2938.5187ms 200 text/html; charset=utf-8

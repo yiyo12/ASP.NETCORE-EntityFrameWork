@@ -1,0 +1,88 @@
+﻿@model EditAmigosModel
+@{
+    ViewBag.Title = "Editar Amigo";
+    var rutaImagen = "~/images/" + (Model.rutaFotoExistente ?? "NoIMG.png");
+
+}
+
+    <form asp-controller="Home" asp-action="edit" method="post" class="mt-3" enctype="multipart/form-data">
+
+        <div asp-validation-summary="All" class="text-danger"></div>
+        @*Guardamos id y la ruta existente*@
+        <input hidden asp-for="Id" />
+        <input hidden asp-for="rutaFotoExistente" />
+
+        @*enlazamos los datos correspondientes*@
+        <div class="form-group row">
+            <label asp-for="Nombre" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input type="text" asp-for="Nombre" placeholder="name" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="Email" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input type="email" asp-for="Email" placeholder="email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="Ciudad" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <select asp-for="Ciudad" class="custom-select mr-sm-2" 
+                        asp-items="Html.GetEnumSelectList<Provincia>()">
+                    <option value="">Seleccione uno</option>
+                </select>
+                <span asp-validation-for="Ciudad" class="text-danger"></span>
+
+            </div>
+        </div>
+
+
+        <div class="form-group row">
+            <label asp-for="Foto" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <div class="custom-file">
+
+                    <input type="file" asp-for="Foto" id="myfile" class="form-control custom-file-input">
+                    <label class="custom-file-label" name="myfile">Imagen</label>
+                </div>
+            </div>
+        </div>
+
+         @*Mostramos la foto del amigo*@
+    <div  class="container">
+        <div class="row">
+            <div class="form-group row col-sm-4 offset-4">
+                <img src="@rutaImagen" asp-append-version="true" class="imagenThumbail" />
+            </div>
+        </div>
+    </div>
+  
+
+        <div class="form-group row">
+            <div class="col-sm-10">
+                <button type="submit" class="btn btn-dark">Editar</button>
+                <a asp-action="index" asp-controller="home" class="btn btn-primary">Volver</a>
+            </div>
+
+
+        </div>
+
+
+        @section Scripts{
+            <!--Script de Jquery para seleccionar el nombre de la imagen que estamos ingresando-->
+            <script>
+                $(document).ready(function () {
+                    $('.custom-file-input').on("change", function () {
+                        var fileName = $(this).val().split("\\").pop();
+                        $(this).next('.custom-file-label').html(fileName);
+                    });
+                });
+            </script>
+        }
+    </form>

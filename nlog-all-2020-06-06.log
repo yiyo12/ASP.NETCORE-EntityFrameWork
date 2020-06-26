@@ -1,0 +1,4 @@
+2020-06-06 18:10:07.4934|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\yiyos\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-06 18:10:08.9653|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:51531/  
+2020-06-06 18:10:09.9626|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller Ejemplo1.Controllers.HomeController (Ejemplo1).
+2020-06-06 18:10:10.9050|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Ejemplo1.Controllers.HomeController.Index (Ejemplo1) - Validation state: Valid
